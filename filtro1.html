@@ -7,18 +7,23 @@
     <script src="filtro1.js"></script>
   </head>
   <body onload="main();">
-    <p>Imagen original</p>
-    <img src="black-hole.jpg" id="imagesrc">
-    <p>Imagen manipulada</p>
-    <canvas id="display"></canvas>
-    <br>
-    <input type="range" id="deslizadorR" min="0" max="255" value="255"/>
-    <p id="range_valueR">255</p>
-    <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
-    <p id="range_valueG">255</p>
-    <input type="range" id="deslizadorB" min="0" max="255" value="255"/>
-    <p id="range_valueB">255</p>
+    <div class="columnas">
+      <img src="black-hole.jpg" id="imagesrc">
+      <h1>Imagen original</h1>
 
-    <button type="button" id="boton1">GREY</button>
+      <canvas id="display"></canvas>
+      <h1>Imagen manipulada</h1>
+      <br>
+      <button type="button" id="botonoriginal">IMAGEN ORIGINAL</button>
+      <button type="button" id="boton1">GREY</button>
+      <br>
+      <input type="range" id="deslizadorR" min="0" max="255" value="255"/>
+      <p id="range_valueR">255</p>
+      <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
+      <p id="range_valueG">255</p>
+      <input type="range" id="deslizadorB" min="0" max="255" value="255"/>
+      <p id="range_valueB">255</p>
+    </div>
+
   </body>
 </html>
