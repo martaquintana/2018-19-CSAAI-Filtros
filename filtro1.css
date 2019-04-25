@@ -1,3 +1,19 @@
 body {
-  background-color: grey;
+  margin-top: 10%;
+  background-color: DarkCyan;
 }
+
+.columnas{
+  column-count: 2;
+  text-align:center;
+   break-after: region;
+}
+
+h1, p {
+  color:white;
+}
+
+button:hover {
+    background-color: #48466d;
+    color: white;
+  }
