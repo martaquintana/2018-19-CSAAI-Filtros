@@ -90,7 +90,7 @@ function main() {
     RGB()
   }
 
-  deslizadorB.oninput = () => {dd
+  deslizadorB.oninput = () => {
     RGB()
   }
 }
